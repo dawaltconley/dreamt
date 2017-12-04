@@ -1,0 +1,19 @@
+# Global Variables 
+
+title: Dreamt
+description:
+baseurl: ""
+url: "http://dreamt.xyz"
+permalink: /:title/
+google_analytics:
+
+# Build Settings
+
+markdown: kramdown
+exclude:
+  - "README.md"
+  - "Gemfile*"
+  - "node_modules"
+  - "package*.json"
+  - "gulpfile.js"
+  - "images/test"
