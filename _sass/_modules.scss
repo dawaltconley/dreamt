@@ -259,3 +259,13 @@
         display: inherit;
     }
 }
+
+/*
+ * Media Queries
+ */
+
+@media screen and (max-width: 400px) {
+    .font-shrink-400 {
+        font-size: .8em;
+    }
+}
