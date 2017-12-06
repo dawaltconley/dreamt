@@ -6,7 +6,7 @@
 
   {% include head.html %}
 
-  <body onLoad="MM_preloadImages('images/1a.png','images/2a.png','images/3a.png','images/5a.png','images/6a.png')">
+  <body>
 
     <div class="page-wrapper padding-m text-center v-rhythm">
 
@@ -15,24 +15,24 @@
       <div class="icon-width-max margin-auto-h">
         <div class="icon-ratio">
           <div
-             ><a class="full-height subtle-icon" href="http://dreamt.bandcamp.com/album/comfort-road" target="_blank" onMouseOver="MM_swapImage('shopping-icon','', '{{ site.baseurl | append: 'images/1c.png' }}',1)" onMouseOut="MM_swapImgRestore()"
-              ><img id="shopping-icon" class="full-height margin-nudge-r" src="images/1d.png" alt="bandcamp"
+             ><a class="full-height subtle-icon" href="http://dreamt.bandcamp.com/album/comfort-road" target="_blank" data-image-swap="shopping-icon"
+              ><img id="shopping-icon" class="full-height margin-nudge-r" src="{{ site.baseurl }}/images/1d.png" alt="bandcamp" data-hover-image="{{ site.baseurl }}/images/1c.png"
             ></a
 
-            ><a class="full-height subtle-icon" href="http://facebook.com/dreamtmusic" target="_blank" onMouseOver="MM_swapImage('facebook-icon','','{{ site.baseurl | append: 'images/2a.png' }}',1)" onMouseOut="MM_swapImgRestore()"
-              ><img id="facebook-icon" class="full-height" src="images/2b.png" alt="facebook"
+            ><a class="full-height subtle-icon" href="http://facebook.com/dreamtmusic" target="_blank" data-image-swap="facebook-icon"
+              ><img id="facebook-icon" class="full-height" src="{{ site.baseurl }}/images/2b.png" alt="facebook" data-hover-image="{{ site.baseurl }}/images/2a.png"
             ></a
 
-            ><a class="full-height subtle-icon" href="http://soundcloud.com/dreamtmusic" target="_blank" onMouseOver="MM_swapImage('soundcloud-icon','','{{ site.baseurl | append: 'images/3a.png' }}',1)" onMouseOut="MM_swapImgRestore()"
-              ><img id="soundcloud-icon" class="full-height" src="images/3b.png" alt="soundcloud"
+            ><a class="full-height subtle-icon" href="http://soundcloud.com/dreamtmusic" target="_blank" data-image-swap="soundcloud-icon"
+              ><img id="soundcloud-icon" class="full-height" src="{{ site.baseurl }}/images/3b.png" alt="soundcloud" data-hover-image="{{ site.baseurl }}/images/3a.png"
             ></a
 
-            ><a class="full-height subtle-icon" href="http://twitter.com/TheDreamtBand" target="_blank" onMouseOver="MM_swapImage('twitter-icon','','{{ site.baseurl | append: 'images/4a.png' }}',0)" onMouseOut="MM_swapImgRestore()"
-              ><img id="twitter-icon" class="full-height" src="images/4b.png" alt="twitter"
+            ><a class="full-height subtle-icon" href="http://twitter.com/TheDreamtBand" target="_blank" data-image-swap="twitter-icon"
+              ><img id="twitter-icon" class="full-height" src="{{ site.baseurl }}/images/4b.png" alt="twitter" data-hover-image="{{ site.baseurl }}/images/4a.png"
             ></a
 
-            ><a class="full-height subtle-icon" href="http://instagram.com/dreamtagram" target="_blank" onMouseOver="MM_swapImage('instagram-icon','','{{ site.baseurl | append: 'images/5a.png' }}',1)" onMouseOut="MM_swapImgRestore()"
-              ><img id="instagram-icon" class="full-height" src="images/5b.png" alt="instagram"
+            ><a class="full-height subtle-icon" href="http://instagram.com/dreamtagram" target="_blank" data-image-swap="instagram-icon"
+              ><img id="instagram-icon" class="full-height" src="{{ site.baseurl }}/images/5b.png" alt="instagram" data-hover-image="{{ site.baseurl }}/images/5a.png"
             ></a
           ></div>
         </div>
@@ -46,6 +46,8 @@
 
       <a class="font-shrink-400" href="mailto:thedreamtband@gmail.com">thedreamtband@gmail.com</a>
     </div>
+
+    {% include scripts.html %}
 
   </body>
 </html>
