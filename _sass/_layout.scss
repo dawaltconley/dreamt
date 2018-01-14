@@ -208,6 +208,16 @@
     @include fixed-ratio(556, 66);
 }
 
+.bandcamp-ratio {
+    @extend %fixed-ratio;
+    width: 100%;
+    padding-top: calc(100% + 118px);
+
+    @media screen and (max-width: 300px + ($spacing-unit * 2) - 1px) {
+        padding-top: calc(100% + 143px);
+    }
+}
+
 /*
  * Tables
  */
