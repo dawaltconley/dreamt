@@ -122,6 +122,10 @@ h2 {
     @media screen and (max-width: $bp-laptop) {
         font-size: 1.4em;
     }
+
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 1.2em;
+    }
 }
 
 h3 {

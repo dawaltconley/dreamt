@@ -11,7 +11,7 @@ $base-font-weight:      200;
 $base-line-height:      1.4;
 $base-line-length:      36em;
 
-$header-font-weight:    600;
+$header-font-weight:    200;
 
 // Colors
 
@@ -34,6 +34,7 @@ $margins: (
     "auto":     auto,
     "0":        0,
     "m":        30px,
+    "l":        60px,
     "nudge":    2.5%,
 );
 
