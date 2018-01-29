@@ -2,7 +2,7 @@
 
 title: Dreamt
 description:
-baseurl: "/dreamt"
+baseurl: ""
 url: "http://dreamt.xyz"
 permalink: /:title/
 google_analytics:
