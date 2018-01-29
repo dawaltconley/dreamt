@@ -1,0 +1,25 @@
+{
+  "name": "dreamt",
+  "version": "1.0.0",
+  "description": "A site for the band, Dreamt.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawaltconley/dreamt.git"
+  },
+  "author": "Dylan Awalt-Conley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawaltconley/dreamt/issues"
+  },
+  "homepage": "https://github.com/dawaltconley/dreamt#readme"
+}
